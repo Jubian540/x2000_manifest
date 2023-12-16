@@ -6,5 +6,5 @@
 
     <project path="kernel" name="x2000_kernel" revision="x2000" />
     <project path="uboot" name="x2000_uboot" revision="x2000" />
-    <project path="prebuilts" name="x2000_prebuilts" revision="x2000" />
+    <project path="docs" name="x2000_docs" revision="x2000" />
 </manifest>

@@ -4,5 +4,7 @@
 
     <default revision="x2000" remote="github" sync-j="4" />
 
-    <project path="x2000" name="x2000_kernel" revision="x2000" />
+    <project path="kernel" name="x2000_kernel" revision="x2000" />
+    <project path="uboot" name="x2000_uboot" revision="x2000" />
+    <project path="prebuilts" name="x2000_prebuilts" revision="x2000" />
 </manifest>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-    <remote name="github" fetch="git@github.com:Jubian540" revision="main" />
+    <remote name="github" fetch="https://github.com/Jubian540" revision="main" />
 
     <default revision="x2000" remote="github" sync-j="4" />
 
-    <project path="kernel" name="x2000_kernel" revision="x2000" />
+    <project path="x2000_kernel" name="kernel" revision="x2000" />
 </manifest>

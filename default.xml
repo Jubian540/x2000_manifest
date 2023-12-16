@@ -4,5 +4,5 @@
 
     <default revision="x2000" remote="github" sync-j="4" />
 
-    <project path="kernel" name="x2000_kernel" />
+    <project path="kernel" name="x2000_kernel" revision="x2000" />
 </manifest>

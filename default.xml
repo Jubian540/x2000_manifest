@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-    <remote
-        name="github" // 仓库名,依照自己git仓库填写,这里只做示例,下同
-        fetch="git@github.com:Jubian540" // 仓库地址,建议使用ssh链接(也可使用https)
-        revision="main" // 默认分支(默认从该分支上获取代码)
-    />
+    <remote name="github" fetch="git@github.com:Jubian540" revision="main" />
 
-    <default
-        revision="x2000" // revision的默认值,下面project中没有配置revision时,使用此值
-        remote="github" // remote的默认值,下面project中没有配置remote时,使用此值
-        sync-j="4"
-    />
+    <default revision="x2000" remote="github" sync-j="4" />
 
-    // 单独配置仓库中各项目参数,这里对单独一个做出注释
-    <project
-        path="kernel" // 拉取代码后的相对路径
-        name="x2000_kernel" // 项目名,与remote.fetch做拼接即是完整项目地址
-    />
+    <project path="kernel" name="x2000_kernel" />
 </manifest>
